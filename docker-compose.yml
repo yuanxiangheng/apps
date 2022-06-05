@@ -7,7 +7,7 @@ services:
             - "9200:9200"
         environment:
             ES_JAVA_OPTS: "-Xms512m -Xmx512m"
-            ZOO_SERVERS: server.1=dzk1:2888:3888 server.2=dzk2:2888:3888 server.3=dzk3:2888:3888
+            discovery.type: single-node
 
     kibana:
         image: kibana:7.6.2
