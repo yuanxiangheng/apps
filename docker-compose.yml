@@ -24,7 +24,3 @@ services:
             - "3306:3306"
         environment:
             MYSQL_ROOT_PASSWORD: 123456
-        volumes:
-            - /home/mysql/conf/my.cnf:/etc/mysql/my.cnf
-            - /home/mysql/logs:/logs
-            - /home/mysql/data/mysql:/var/lib/mysql
