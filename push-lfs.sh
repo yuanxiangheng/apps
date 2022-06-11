@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 
 git lfs track "renxi.mp3"
 git add .gitattributes
